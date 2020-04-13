@@ -59,3 +59,45 @@
     border-radius: 60px;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:17px;
+    right:27px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+nav a{
+    padding: 0px 8px;
+}
+
+nav a:link{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.87);
+}
+
+nav a:visited{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.87);
+}
+
+nav button{
+    background-color: rgb(66, 133, 244);
+    color:white;
+    border-width: 1px;
+    border-color: rgb(66, 133, 244);;
+    width:auto;
+    padding:0 12px;
+    margin-left: 10px;
+    height: 30px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+
+}
+
+nav img{
+    margin: 0 10px
+}
+
