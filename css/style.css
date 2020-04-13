@@ -101,3 +101,50 @@ nav img{
     margin: 0 10px
 }
 
+footer{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    color: rgb(95, 99, 104);
+    font-family: arial;
+    font-size: 14px;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: rgb(95, 99, 104);
+    margin: 0 13px;
+}
+
+footer div{
+    background-color: #f2f2f2;
+    height: 40px;
+    display:flex;
+    align-items: center;
+}
+
+#links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    border-bottom: none;
+}
+
+
+#country{
+    padding: 0 28px;
+    border:solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    border-bottom: none;
+    font-size: 15px;
+}
+
+
+
+
